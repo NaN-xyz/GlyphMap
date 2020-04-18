@@ -104,8 +104,8 @@ var sketch = function(p) {
 		p.textSize(p.big_txt_size)
 		p.text(bigtxt, tx+(boxw/2)+p.global_glyphw+p.offsetx, ty+(boxh/2)-(p.big_txt_size/8)+p.offsety)
 
-		console.log("total cols:", p.glyph_cols-1)
-		console.log(glyphcol, glyphrow);
+		// console.log("total cols:", p.glyph_cols-1)
+		// console.log(glyphcol, glyphrow);
 
 	}
 
